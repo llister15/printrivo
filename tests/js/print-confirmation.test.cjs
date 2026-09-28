@@ -1,0 +1,23 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const delivery={value:'pickup'},address={value:'',setCustomValidity(v){this.error=v;},reportValidity(){return !this.error;}};
+const form={elements:{fulfillment:delivery,shipping_address:address},reportValidity(){return true;}};
+const dimensions={},price={},shipping={},cancel={};let closeHandler;
+const dialog={querySelector:s=>({'form':form,'[data-shipping]':shipping,'[data-dimensions]':dimensions,'[data-price]':price,'[data-cancel]':cancel}[s]),addEventListener(name,handler){if(name==='close')closeHandler=handler;},showModal(){this.open=true;},close(){this.open=false;closeHandler();}};
+const context=vm.createContext({window:{},document:{getElementById:()=>dialog},Intl});
+vm.runInContext(fs.readFileSync('public/assets/js/print-confirmation.js','utf8'),context);
+(async()=>{
+ const confirmation=context.window.PrintOrderConfirmation;
+ assert.equal(confirmation.price(300,300,300),1500);
+ assert.equal(confirmation.price(6600,9000,300),1980);
+ assert.equal(confirmation.price(3000,6000,150),2400);
+ const details={width:6600,height:9000,dpi:300};
+ let pending=confirmation.open(details);assert.equal(price.textContent,'$19.80');assert.match(dimensions.textContent,/22.00 × 30.00/);
+ cancel.onclick();assert.equal(await pending,null);
+ pending=confirmation.open(details);delivery.value='shipping';delivery.onchange();assert.equal(shipping.hidden,false);assert.equal(address.required,true);
+ form.onsubmit({preventDefault(){}});assert.equal(dialog.open,true);assert.match(address.error,/complete shipping address/);
+ address.value='Print Customer, 123 Main St, Springfield, IL 62701, USA';address.oninput();form.onsubmit({preventDefault(){}});
+ let result=await pending;assert.equal(result.fulfillment,'shipping');assert.equal(result.confirmed_price_cents,'1980');assert.equal(result.shipping_address,address.value);
+ pending=confirmation.open(details);delivery.value='pickup';delivery.onchange();form.onsubmit({preventDefault(){}});result=await pending;assert.equal(result.shipping_address,'');assert.equal(address.required,false);
+ await assert.rejects(confirmation.open({...details,dpi:0}),/valid print dimensions/);
+ console.log('PASS: confirmation pricing, cancellation, pickup, required shipping address and invalid dimensions');
+})().catch(error=>{console.error(error);process.exitCode=1;});

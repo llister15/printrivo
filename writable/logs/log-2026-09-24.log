@@ -1,0 +1,75 @@
+INFO - 2026-09-24 00:37:24 --> CSRF token verified.
+INFO - 2026-09-24 00:37:24 --> CSRF token verified.
+INFO - 2026-09-24 00:37:24 --> CSRF token verified.
+CRITICAL - 2026-09-24 00:37:51 --> InvalidArgumentException: Choose pickup or shipping and enter a complete shipping address when shipping.
+[Method: GET, Route: /]
+in APPPATH/Services/PrintOrder.php on line 36.
+ 1 /private/tmp/printrivo-large-compat.php(12): App\Services\PrintOrder->payload(Object(CodeIgniter\Shield\Entities\User), [...], '/private/tmp/printrivo-large-transfer.png', true)
+INFO - 2026-09-24 01:58:59 --> CSRF token verified.
+INFO - 2026-09-24 01:58:59 --> CSRF token verified.
+INFO - 2026-09-24 01:58:59 --> CSRF token verified.
+INFO - 2026-09-24 01:59:00 --> CSRF token verified.
+INFO - 2026-09-24 01:59:00 --> CSRF token verified.
+INFO - 2026-09-24 01:59:03 --> CSRF token verified.
+INFO - 2026-09-24 01:59:03 --> CSRF token verified.
+INFO - 2026-09-24 01:59:04 --> CSRF token verified.
+INFO - 2026-09-24 01:59:05 --> CSRF token verified.
+INFO - 2026-09-24 01:59:20 --> CSRF token verified.
+INFO - 2026-09-24 01:59:20 --> CSRF token verified.
+INFO - 2026-09-24 01:59:20 --> CSRF token verified.
+INFO - 2026-09-24 01:59:20 --> CSRF token verified.
+INFO - 2026-09-24 01:59:21 --> CSRF token verified.
+INFO - 2026-09-24 01:59:24 --> CSRF token verified.
+INFO - 2026-09-24 01:59:24 --> CSRF token verified.
+INFO - 2026-09-24 01:59:25 --> CSRF token verified.
+INFO - 2026-09-24 01:59:25 --> CSRF token verified.
+INFO - 2026-09-24 01:59:29 --> CSRF token verified.
+INFO - 2026-09-24 01:59:30 --> CSRF token verified.
+INFO - 2026-09-24 01:59:30 --> CSRF token verified.
+INFO - 2026-09-24 01:59:30 --> CSRF token verified.
+INFO - 2026-09-24 01:59:30 --> CSRF token verified.
+INFO - 2026-09-24 01:59:31 --> CSRF token verified.
+INFO - 2026-09-24 01:59:31 --> CSRF token verified.
+INFO - 2026-09-24 01:59:31 --> CSRF token verified.
+INFO - 2026-09-24 01:59:32 --> CSRF token verified.
+INFO - 2026-09-24 01:59:41 --> CSRF token verified.
+INFO - 2026-09-24 01:59:41 --> CSRF token verified.
+INFO - 2026-09-24 01:59:41 --> CSRF token verified.
+INFO - 2026-09-24 01:59:41 --> CSRF token verified.
+INFO - 2026-09-24 01:59:46 --> CSRF token verified.
+INFO - 2026-09-24 01:59:46 --> CSRF token verified.
+INFO - 2026-09-24 01:59:46 --> CSRF token verified.
+INFO - 2026-09-24 01:59:46 --> CSRF token verified.
+INFO - 2026-09-24 01:59:46 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:47 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: provider-rejected.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: hostname-mismatch.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: action-mismatch.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: score-rejected.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: expired-challenge.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: provider-rejected.
+WARNING - 2026-09-24 01:59:48 --> Security verification rejected: configuration-or-token.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+INFO - 2026-09-24 01:59:48 --> CSRF token verified.
+ERROR - 2026-09-24 01:59:49 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-24 01:59:53 --> CSRF token verified.
+ERROR - 2026-09-24 01:59:53 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-24 01:59:53 --> CSRF token verified.
+INFO - 2026-09-24 01:59:53 --> CSRF token verified.

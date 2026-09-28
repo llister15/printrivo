@@ -1,0 +1,61 @@
+/* Shared controls for both the original member page and admin-created accounts. */
+.admin-create .auth-card { max-width: 720px; margin-inline: auto; }
+.admin-create fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.admin-create fieldset[hidden] { display: none; }
+.admin-create .auth-card input:not([type="checkbox"]):not([type="hidden"]),
+.admin-create select,
+.admin-page .account-panel input:not([type="checkbox"]):not([type="hidden"]),
+.admin-page .account-panel select {
+    display: block; box-sizing: border-box; width: 100%; max-width: 100%;
+    height: 50px; min-width: 0; padding: 0 16px; margin: 8px 0 20px;
+    border: 1px solid #52647d; border-radius: 9px;
+    background-color: #1c293c; color: #f4f7fc; color-scheme: dark;
+    font: inherit; font-size: 15px; line-height: normal;
+    transition: border-color .15s, box-shadow .15s;
+}
+.admin-create select,
+.admin-page .account-panel select {
+    appearance: none; padding-right: 44px; cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23b8c8da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 16px center;
+}
+.admin-create .auth-card label:not(.admin-confirm),
+.admin-page .account-panel label:not(.admin-confirm) {
+    display: block; color: #dde6f2; font-size: 14px; font-weight: 600; line-height: 1.5;
+}
+.admin-create .auth-card input:hover,
+.admin-create select:hover,
+.admin-page .account-panel input:hover,
+.admin-page .account-panel select:hover { border-color: #8496af; }
+.admin-create .auth-card input:focus-visible,
+.admin-create select:focus-visible,
+.admin-page .account-panel input:focus-visible,
+.admin-page .account-panel select:focus-visible {
+    outline: 2px solid #57dff6; outline-offset: 2px; border-color: #57dff6;
+}
+.admin-page .account-panel + .account-panel { margin-top: 24px; }
+.admin-page .account-panel h2 { font-size: clamp(24px, 3vw, 30px); line-height: 1.25; margin-bottom: 16px; }
+.admin-page .account-panel h3 { font-size: 21px; margin-top: 28px; }
+.admin-page .account-panel form { margin-top: 24px; }
+.admin-page .account-panel form + form { margin-top: 20px; }
+.admin-create .admin-confirm { align-items: flex-start; }
+.admin-create .admin-confirm input,
+.admin-page .admin-confirm input { width: 17px; height: 17px; flex: 0 0 auto; accent-color: #6288ff; }
+/* The legacy member template has direct label/control siblings. Keep it compatible. */
+.admin-page form:has(> #access-kind) {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px;
+}
+.admin-page label[for="access-kind"] { grid-column: 1; grid-row: 1; }
+.admin-page #access-kind { grid-column: 1; grid-row: 2; }
+.admin-page label[for="access-days"] { grid-column: 2; grid-row: 1; }
+.admin-page #access-days { grid-column: 2; grid-row: 2; }
+.admin-page form:has(> #access-kind) > p {
+    grid-column: 1 / -1; color: #b8c8da; font-size: 14px; line-height: 1.7; margin: 0 0 22px;
+}
+.admin-page form:has(> #access-kind) > button { grid-column: 1 / -1; justify-self: start; }
+@media (max-width: 560px) {
+    .admin-page form:has(> #access-kind) { grid-template-columns: minmax(0, 1fr); }
+    .admin-page label[for="access-days"] { grid-column: 1; grid-row: 3; }
+    .admin-page #access-days { grid-column: 1; grid-row: 4; }
+    .admin-page form:has(> #access-kind) > button { width: 100%; }
+}

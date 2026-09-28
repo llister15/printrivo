@@ -1,0 +1,1357 @@
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:56:38 --> [DEPRECATED] Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:57:47 --> [DEPRECATED] Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(11): CodeIgniter\Router\RouteCollection->match([...], 'tools/qr', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(19): CodeIgniter\Router\RouteCollection->match([...], 'qrcode', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH/Config/Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'qrcode/index.php', 'QrCode::index')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "put" is deprecated. Use uppercase HTTP method like "PUT".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "patch" is deprecated. Use uppercase HTTP method like "PATCH".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "delete" is deprecated. Use uppercase HTTP method like "DELETE".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+WARNING - 2026-09-18 07:58:56 --> [DEPRECATED] Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS". in SYSTEMPATH/Router/RouteCollection.php on line 1026.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1026): trigger_error('Passing lowercase HTTP method "options" is deprecated. Use uppercase HTTP method like "OPTIONS".', 16384)
+ 2 APPPATH/Config/Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'dtf/upload.php', 'GangSheet::uploadMethodNotAllowed')
+ 3 SYSTEMPATH/Router/RouteCollection.php(339): require('/opt/lampp/htdocs/tools/app/Config/Routes.php')
+ 4 SYSTEMPATH/Test/bootstrap.php(90): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(337): include_once('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 6 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(109): PHPUnit\TextUI\Application->loadBootstrapScript('/opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Test/bootstrap.php')
+ 7 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+ 8 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/builder.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/builder.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/rate]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/rate', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 05:59:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/builder.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/builder.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/rate]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/rate', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:02:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/builder.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/builder.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/rate]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/rate', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:03:15 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:06:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-18 06:06:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:08:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:08:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:08:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:08:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:09:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:10:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:11:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "marketing/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('marketing/home.php')
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+ 3 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/opt/lampp/htdocs/tools/public/index.php')
+DEBUG - 2026-09-18 06:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:15:01 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: register]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('register', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:15:01 --> CSRF token verified.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:15:02 --> CSRF token verified.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:15:02 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: logout]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('logout', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:15:02 --> CSRF token verified.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:15:02 --> CSRF token verified.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:15:02 --> CSRF token verified.
+DEBUG - 2026-09-18 06:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:16:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: register]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('register', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:16:29 --> CSRF token verified.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:16:29 --> CSRF token verified.
+DEBUG - 2026-09-18 06:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:16:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: logout]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('logout', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:16:30 --> CSRF token verified.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:16:30 --> CSRF token verified.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:16:30 --> CSRF token verified.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:35 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/builder.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/builder.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/rate]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/rate', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:17:36 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:17:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:43:37 --> CSRF token verified.
+DEBUG - 2026-09-18 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:50:18 --> CSRF token verified.
+DEBUG - 2026-09-18 06:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:34 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:55:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:55:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:55:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 06:55:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 06:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:35 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 06:55:36 --> CSRF token verified.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 08:55:48 --> TypeError: Cannot assign CodeIgniter\HTTP\CLIRequest to property CodeIgniter\Security\Security::$request of type CodeIgniter\HTTP\IncomingRequest
+[Method: CLI, Route: /]
+in SYSTEMPATH/Security/Security.php on line 210.
+ 1 SYSTEMPATH/Config/Services.php(657): CodeIgniter\Security\Security->__construct(Object(Config\Security))
+ 2 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::security(Object(Config\Security), false)
+ 3 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('security', [...])
+ 4 SYSTEMPATH/Config/Services.php(652): CodeIgniter\Config\BaseService::getSharedInstance('security', null)
+ 5 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::security()
+ 6 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('security', [])
+ 7 SYSTEMPATH/Common.php(1096): CodeIgniter\Config\BaseService::get('security')
+ 8 SYSTEMPATH/Common.php(290): service('security')
+ 9 APPPATH/Views/tools/gang_sheet.php(4): csrf_header()
+10 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/tools/gang_sheet.php')
+11 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('tools/gang_sheet', [], true)
+13 /tmp/printrivo-builder-preview.php(9): view('tools/gang_sheet')
+DEBUG - 2026-09-18 06:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 06:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:04:56 --> CSRF token verified.
+DEBUG - 2026-09-18 07:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 07:14:51 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: register]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('register', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:51 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:51 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:52 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 07:14:52 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: logout]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('logout', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:52 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:52 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:52 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 07:14:56 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: register]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('register', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:56 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:56 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:57 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 07:14:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: logout]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('logout', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:57 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:57 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:14:57 --> CSRF token verified.
+DEBUG - 2026-09-18 07:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:54:34 --> CSRF token verified.
+DEBUG - 2026-09-18 07:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:54:47 --> CSRF token verified.
+DEBUG - 2026-09-18 07:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:55:44 --> CSRF token verified.
+DEBUG - 2026-09-18 07:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 07:56:00 --> CSRF token verified.
+DEBUG - 2026-09-18 07:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 07:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:53 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 08:09:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: tools/qr]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('tools/qr', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 08:09:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: qrcode/index.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('qrcode/index.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 08:09:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: dtf/upload.php]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('dtf/upload.php', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-18 08:09:54 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: api/tools/gang-sheet/inspect]
+in SYSTEMPATH/Security/Security.php on line 258.
+ 1 SYSTEMPATH/Security/Security.php(258): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\Filters\Filters->run('api/tools/gang-sheet/inspect', 'before')
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:54 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:54 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:55 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:55 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:55 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:55 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-18 08:09:55 --> CSRF token verified.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-18 08:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,14 @@
+.print-processing{position:fixed;inset:0 0 auto;width:100%;max-width:none;max-height:none;margin:0;padding:18px 24px 0;border:0;border-bottom:1px solid #57dff6;border-radius:0;background:#17283c;color:#f2f6fc;box-shadow:0 8px 28px #0005;font:14px/1.5 system-ui,sans-serif;z-index:10000}
+.print-processing::backdrop{background:#09122038;cursor:wait}
+.print-processing-copy{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+.print-processing-copy strong{font-size:15px}.print-processing-copy>span{color:#bdd0e3;font-size:13px}
+.print-processing-track{height:4px;background:#31465e;overflow:hidden;margin:0 -24px}
+.print-processing-track>span{display:block;height:100%;width:35%;background:#57dff6;transform:translateX(-100%);animation:print-processing-slide 1.4s ease-in-out infinite;will-change:transform}
+@keyframes print-processing-slide{to{transform:translateX(390%)}}
+@media(max-width:600px){.print-processing-copy{align-items:flex-start;flex-direction:column;gap:4px}}
+@media(prefers-reduced-motion:reduce){.print-processing-track>span{animation:none;transform:none;width:100%;opacity:.75}}
+.print-processing-track[data-determinate="true"]>span{animation:none;transform:none;transition:width .15s ease}
+.print-order-feedback{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);width:min(620px,calc(100% - 32px));z-index:1000;box-sizing:border-box;display:flex;align-items:flex-start;gap:16px;padding:18px 20px;border:1px solid #57dff6;border-radius:10px;background:#17283c;color:#f2f6fc;box-shadow:0 8px 28px #0006;font:14px/1.5 system-ui,sans-serif}
+.print-order-feedback[hidden]{display:none}.print-order-feedback[data-error="true"]{border-color:#ffb08a}
+.print-order-feedback>button{flex:0 0 auto;margin-left:auto;padding:0 4px;border:0;background:transparent;color:inherit;font:24px/1 system-ui;cursor:pointer}
+.gang-sheet-builder .top{height:auto;min-height:72px;flex-wrap:wrap}.gang-sheet-builder .top>:is(button,a){min-height:42px;display:inline-flex;align-items:center;justify-content:center}

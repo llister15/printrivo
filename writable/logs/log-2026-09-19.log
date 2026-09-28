@@ -1,0 +1,935 @@
+DEBUG - 2026-09-19 05:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:38:59 --> CSRF token verified.
+DEBUG - 2026-09-19 05:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:39:20 --> CSRF token verified.
+DEBUG - 2026-09-19 05:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:40:28 --> CSRF token verified.
+DEBUG - 2026-09-19 05:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:40:43 --> CSRF token verified.
+DEBUG - 2026-09-19 05:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:42:46 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-09-19 05:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:43:39 --> CSRF token verified.
+ERROR - 2026-09-19 05:43:39 --> Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Validation', 'login', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Validation.login')
+ 9 VENDORPATH/codeigniter4/shield/src/Validation/ValidationRules.php(69): setting('Validation.login')
+10 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(93): CodeIgniter\Shield\Validation\ValidationRules->getLoginRules()
+11 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(55): CodeIgniter\Shield\Controllers\LoginController->getValidationRules()
+12 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+13 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+14 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:43:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+[Method: POST, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 2 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 4 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Validation', 'login', null)
+ 5 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Validation.login')
+ 6 VENDORPATH/codeigniter4/shield/src/Validation/ValidationRules.php(69): setting('Validation.login')
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(93): CodeIgniter\Shield\Validation\ValidationRules->getLoginRules()
+ 8 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(55): CodeIgniter\Shield\Controllers\LoginController->getValidationRules()
+ 9 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+10 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:43:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 6 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Validation', 'login', null)
+ 7 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Validation.login')
+ 8 VENDORPATH/codeigniter4/shield/src/Validation/ValidationRules.php(69): setting('Validation.login')
+ 9 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(93): CodeIgniter\Shield\Validation\ValidationRules->getLoginRules()
+10 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(55): CodeIgniter\Shield\Controllers\LoginController->getValidationRules()
+11 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+12 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+13 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:43:39 --> [Caused by] mysqli_sql_exception: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Validation', 'login', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Validation.login')
+ 9 VENDORPATH/codeigniter4/shield/src/Validation/ValidationRules.php(69): setting('Validation.login')
+10 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(93): CodeIgniter\Shield\Validation\ValidationRules->getLoginRules()
+11 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(55): CodeIgniter\Shield\Controllers\LoginController->getValidationRules()
+12 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginAction()
+13 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+14 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-19 05:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:44:08 --> Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+16 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+17 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+[Method: GET, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 2 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 4 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 5 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 6 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+11 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+12 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+13 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+14 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 6 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 7 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+12 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+13 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+14 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+15 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+16 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:08 --> [Caused by] mysqli_sql_exception: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+16 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+17 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-19 05:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:44:10 --> Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+16 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+17 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+[Method: GET, Route: login]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 2 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 4 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 5 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 6 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+11 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+12 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+13 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+14 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 6 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 7 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+12 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+13 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+14 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+15 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+16 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:10 --> [Caused by] mysqli_sql_exception: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(33): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/CodeIgniter.php(974): CodeIgniter\Shield\Controllers\LoginController->loginView()
+16 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+17 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-19 05:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:44:14 --> Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+16 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+18 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+19 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+20 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+21 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+22 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+23 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+24 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+25 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 2 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 4 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 5 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 6 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+11 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+12 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+13 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+15 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+16 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+17 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+18 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+19 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+22 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 6 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 7 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+12 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+13 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+14 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+15 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+17 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+18 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+19 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+20 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+21 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+23 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:14 --> [Caused by] mysqli_sql_exception: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+16 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+18 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+19 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+20 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+21 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+22 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+23 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+24 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+25 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-09-19 05:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:44:17 --> Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+16 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+18 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+19 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+20 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+21 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+22 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+23 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+24 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+25 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 863.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 2 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 4 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 5 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 6 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+11 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+12 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+13 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+14 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+15 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+16 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+17 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+18 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+19 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+20 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+22 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 310.
+ 1 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 2 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 6 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 7 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+12 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+13 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+14 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+15 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+16 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+17 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+18 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+19 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+20 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+21 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+23 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+24 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-19 05:44:17 --> [Caused by] mysqli_sql_exception: Table 'printrivo.po_settings' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `po_settings`
+WHERE `context` IS NULL', [], false)
+ 5 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 6 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate(null)
+ 7 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has('Config\\Auth', 'sessionConfig', null)
+ 8 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get('Auth.sessionConfig')
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting('Auth.sessionConfig')
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+11 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey('id')
+12 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+13 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+14 APPPATH/Views/marketing/layout.php(15): CodeIgniter\Shield\Auth->__call('loggedIn', [])
+15 SYSTEMPATH/View/View.php(240): include('/opt/lampp/htdocs/tools/app/Views/marketing/layout.php')
+16 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render('marketing/layout', [], true)
+18 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render('marketing/home', [], true)
+19 APPPATH/Controllers/Marketing.php(5): view('marketing/home')
+20 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+21 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+22 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+23 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+24 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+25 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-09-19 05:44:21 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-19 05:45:49 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-19 05:46:44 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([...])
+12 SYSTEMPATH/CLI/BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH/Commands/Database/MigrateRefresh.php(91): CodeIgniter\CLI\BaseCommand->call('migrate', [...])
+14 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH/Commands/Database/MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-19 05:47:20 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([...])
+12 SYSTEMPATH/CLI/BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', [...])
+13 SYSTEMPATH/Commands/Database/MigrateRefresh.php(91): CodeIgniter\CLI\BaseCommand->call('migrate', [...])
+14 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\MigrateRefresh->CodeIgniter\Commands\Database\{closure}()
+15 SYSTEMPATH/Commands/Database/MigrateRefresh.php(89): CodeIgniter\Commands\Database\MigrateRefresh->withSignalsBlocked(Object(Closure))
+16 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\MigrateRefresh->run([...])
+17 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate:refresh', [])
+18 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+19 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+20 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-19 05:49:18 --> Table 'printrivo.po_users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 300.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(300): mysqli->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 4 SYSTEMPATH/Database/Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `po_users`
+	ADD `first_name` VARCHAR(80) DEFAULT \'\',
+	ADD `last_name` VARCHAR(80) DEFAULT \'\'')
+ 5 APPPATH/Database/Migrations/2026-09-18-060000_AddMemberProfiles.php(8): CodeIgniter\Database\Forge->addColumn('users', [...])
+ 6 SYSTEMPATH/Database/MigrationRunner.php(1014): App\Database\Migrations\AddMemberProfiles->up()
+ 7 SYSTEMPATH/Database/MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-09-19 05:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:50:04 --> CSRF token verified.
+DEBUG - 2026-09-19 05:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 05:54:46 --> CSRF token verified.
+DEBUG - 2026-09-19 05:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 05:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-19 05:58:12 --> Error connecting to the database: mysqli_sql_exception: Unknown error while connecting in /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'printrivo', 3306, '', 0)
+#1 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+#5 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#9 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 /opt/lampp/htdocs/tools/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown error while connecting in /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+#4 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#8 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 /opt/lampp/htdocs/tools/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2026-09-19 05:58:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown error while connecting
+[Method: CLI, Route: db:seed/TestAdminSeeder]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH/Database/Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+ 4 SYSTEMPATH/Commands/Database/Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH/CLI/Commands.php(72): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+ 8 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 9 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-09-19 06:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:00:45 --> CSRF token verified.
+DEBUG - 2026-09-19 06:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:02:27 --> CSRF token verified.
+DEBUG - 2026-09-19 06:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:02:48 --> CSRF token verified.
+DEBUG - 2026-09-19 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:03:14 --> CSRF token verified.
+DEBUG - 2026-09-19 06:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:25:57 --> CSRF token verified.
+DEBUG - 2026-09-19 06:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:26:46 --> CSRF token verified.
+DEBUG - 2026-09-19 06:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:28:21 --> CSRF token verified.
+DEBUG - 2026-09-19 06:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:28:31 --> CSRF token verified.
+DEBUG - 2026-09-19 06:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:28:34 --> CSRF token verified.
+DEBUG - 2026-09-19 06:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:28:44 --> CSRF token verified.
+DEBUG - 2026-09-19 06:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:29:10 --> CSRF token verified.
+DEBUG - 2026-09-19 06:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:29:24 --> CSRF token verified.
+DEBUG - 2026-09-19 06:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:30:28 --> CSRF token verified.
+DEBUG - 2026-09-19 06:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:30:46 --> CSRF token verified.
+DEBUG - 2026-09-19 06:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:31:31 --> CSRF token verified.
+DEBUG - 2026-09-19 06:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:33:12 --> CSRF token verified.
+INFO - 2026-09-19 06:33:17 --> CSRF token verified.
+DEBUG - 2026-09-19 06:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:35:15 --> CSRF token verified.
+DEBUG - 2026-09-19 06:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:35:24 --> CSRF token verified.
+DEBUG - 2026-09-19 06:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:40:29 --> CSRF token verified.
+DEBUG - 2026-09-19 06:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 06:41:00 --> CSRF token verified.
+DEBUG - 2026-09-19 06:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 06:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 07:03:51 --> CSRF token verified.
+INFO - 2026-09-19 07:04:41 --> CSRF token verified.
+DEBUG - 2026-09-19 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-19 07:59:14 --> CSRF token verified.
+DEBUG - 2026-09-19 07:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-19 07:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

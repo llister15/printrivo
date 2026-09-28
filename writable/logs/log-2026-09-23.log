@@ -1,0 +1,202 @@
+CRITICAL - 2026-09-23 06:10:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/paypal_diagnostics.php"
+[Method: GET, Route: admin/users/3/paypal-diagnostics]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PayPalDiagnostics.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\PayPalDiagnostics->user()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-09-23 06:11:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/paypal_diagnostics.php"
+[Method: GET, Route: admin/users/3/paypal-diagnostics]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PayPalDiagnostics.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\PayPalDiagnostics->user()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-09-23 06:11:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/paypal_diagnostics.php"
+[Method: GET, Route: admin/users/3/paypal-diagnostics]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PayPalDiagnostics.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\PayPalDiagnostics->user()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+INFO - 2026-09-23 21:34:07 --> CSRF token verified.
+INFO - 2026-09-23 21:34:09 --> CSRF token verified.
+INFO - 2026-09-23 21:34:09 --> CSRF token verified.
+INFO - 2026-09-23 21:34:10 --> CSRF token verified.
+INFO - 2026-09-23 21:34:11 --> CSRF token verified.
+INFO - 2026-09-23 21:34:32 --> CSRF token verified.
+INFO - 2026-09-23 21:34:34 --> CSRF token verified.
+INFO - 2026-09-23 21:34:34 --> CSRF token verified.
+INFO - 2026-09-23 21:34:35 --> CSRF token verified.
+INFO - 2026-09-23 21:34:36 --> CSRF token verified.
+INFO - 2026-09-23 21:34:40 --> CSRF token verified.
+INFO - 2026-09-23 21:34:41 --> CSRF token verified.
+INFO - 2026-09-23 21:34:41 --> CSRF token verified.
+INFO - 2026-09-23 21:34:41 --> CSRF token verified.
+INFO - 2026-09-23 21:34:41 --> CSRF token verified.
+INFO - 2026-09-23 21:34:42 --> CSRF token verified.
+INFO - 2026-09-23 21:34:42 --> CSRF token verified.
+INFO - 2026-09-23 21:34:42 --> CSRF token verified.
+INFO - 2026-09-23 21:34:43 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:51 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+INFO - 2026-09-23 21:34:52 --> CSRF token verified.
+ERROR - 2026-09-23 21:34:53 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-23 21:34:57 --> CSRF token verified.
+ERROR - 2026-09-23 21:34:57 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-23 21:34:57 --> CSRF token verified.
+INFO - 2026-09-23 21:34:57 --> CSRF token verified.
+INFO - 2026-09-23 21:35:44 --> CSRF token verified.
+INFO - 2026-09-23 21:35:47 --> CSRF token verified.
+INFO - 2026-09-23 21:35:47 --> CSRF token verified.
+INFO - 2026-09-23 21:35:48 --> CSRF token verified.
+INFO - 2026-09-23 21:35:49 --> CSRF token verified.
+INFO - 2026-09-23 22:02:13 --> CSRF token verified.
+INFO - 2026-09-23 22:02:13 --> CSRF token verified.
+INFO - 2026-09-23 22:02:13 --> CSRF token verified.
+INFO - 2026-09-23 22:03:58 --> CSRF token verified.
+INFO - 2026-09-23 22:04:01 --> CSRF token verified.
+INFO - 2026-09-23 22:04:01 --> CSRF token verified.
+INFO - 2026-09-23 22:04:02 --> CSRF token verified.
+INFO - 2026-09-23 22:04:03 --> CSRF token verified.
+INFO - 2026-09-23 22:04:06 --> CSRF token verified.
+INFO - 2026-09-23 22:04:07 --> CSRF token verified.
+INFO - 2026-09-23 22:04:08 --> CSRF token verified.
+INFO - 2026-09-23 22:04:08 --> CSRF token verified.
+INFO - 2026-09-23 22:04:08 --> CSRF token verified.
+INFO - 2026-09-23 22:04:08 --> CSRF token verified.
+INFO - 2026-09-23 22:04:08 --> CSRF token verified.
+INFO - 2026-09-23 22:04:09 --> CSRF token verified.
+INFO - 2026-09-23 22:04:10 --> CSRF token verified.
+INFO - 2026-09-23 22:04:18 --> CSRF token verified.
+INFO - 2026-09-23 22:04:18 --> CSRF token verified.
+INFO - 2026-09-23 22:04:19 --> CSRF token verified.
+INFO - 2026-09-23 22:04:19 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:21 --> CSRF token verified.
+INFO - 2026-09-23 22:04:22 --> CSRF token verified.
+INFO - 2026-09-23 22:04:22 --> CSRF token verified.
+ERROR - 2026-09-23 22:04:22 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-23 22:04:26 --> CSRF token verified.
+ERROR - 2026-09-23 22:04:27 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-23 22:04:27 --> CSRF token verified.
+INFO - 2026-09-23 22:04:27 --> CSRF token verified.
+INFO - 2026-09-23 22:22:56 --> CSRF token verified.
+INFO - 2026-09-23 22:22:57 --> CSRF token verified.
+INFO - 2026-09-23 22:22:57 --> CSRF token verified.
+INFO - 2026-09-23 22:25:21 --> CSRF token verified.
+INFO - 2026-09-23 22:25:21 --> CSRF token verified.
+INFO - 2026-09-23 22:25:21 --> CSRF token verified.
+INFO - 2026-09-23 23:09:29 --> CSRF token verified.
+INFO - 2026-09-23 23:09:29 --> CSRF token verified.
+INFO - 2026-09-23 23:09:29 --> CSRF token verified.
+INFO - 2026-09-23 23:09:33 --> CSRF token verified.
+INFO - 2026-09-23 23:09:33 --> CSRF token verified.
+INFO - 2026-09-23 23:09:33 --> CSRF token verified.
+INFO - 2026-09-23 23:09:33 --> CSRF token verified.
+INFO - 2026-09-23 23:09:34 --> CSRF token verified.
+INFO - 2026-09-23 23:10:16 --> CSRF token verified.
+INFO - 2026-09-23 23:10:16 --> CSRF token verified.
+INFO - 2026-09-23 23:10:35 --> CSRF token verified.
+INFO - 2026-09-23 23:10:35 --> CSRF token verified.
+INFO - 2026-09-23 23:10:35 --> CSRF token verified.
+INFO - 2026-09-23 23:10:39 --> CSRF token verified.
+INFO - 2026-09-23 23:10:39 --> CSRF token verified.
+INFO - 2026-09-23 23:10:39 --> CSRF token verified.
+INFO - 2026-09-23 23:10:39 --> CSRF token verified.
+INFO - 2026-09-23 23:10:39 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: provider-rejected.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: hostname-mismatch.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: action-mismatch.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: score-rejected.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: expired-challenge.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: provider-rejected.
+WARNING - 2026-09-23 23:10:40 --> Security verification rejected: configuration-or-token.
+INFO - 2026-09-23 23:10:40 --> CSRF token verified.
+INFO - 2026-09-23 23:21:03 --> CSRF token verified.
+INFO - 2026-09-23 23:21:03 --> CSRF token verified.
+INFO - 2026-09-23 23:21:03 --> CSRF token verified.
+INFO - 2026-09-23 23:21:07 --> CSRF token verified.
+INFO - 2026-09-23 23:21:07 --> CSRF token verified.
+INFO - 2026-09-23 23:21:07 --> CSRF token verified.
+INFO - 2026-09-23 23:21:07 --> CSRF token verified.
+INFO - 2026-09-23 23:21:07 --> CSRF token verified.
+INFO - 2026-09-23 23:21:08 --> CSRF token verified.
+INFO - 2026-09-23 23:21:47 --> CSRF token verified.
+INFO - 2026-09-23 23:21:47 --> CSRF token verified.
+INFO - 2026-09-23 23:21:47 --> CSRF token verified.
+INFO - 2026-09-23 23:21:51 --> CSRF token verified.
+INFO - 2026-09-23 23:21:51 --> CSRF token verified.
+INFO - 2026-09-23 23:21:51 --> CSRF token verified.
+INFO - 2026-09-23 23:21:51 --> CSRF token verified.
+INFO - 2026-09-23 23:21:51 --> CSRF token verified.
+INFO - 2026-09-23 23:21:52 --> CSRF token verified.
+INFO - 2026-09-23 23:21:52 --> CSRF token verified.
+INFO - 2026-09-23 23:42:03 --> CSRF token verified.
+INFO - 2026-09-23 23:42:04 --> CSRF token verified.
+INFO - 2026-09-23 23:42:04 --> CSRF token verified.
+INFO - 2026-09-23 23:42:09 --> CSRF token verified.
+INFO - 2026-09-23 23:42:09 --> CSRF token verified.
+INFO - 2026-09-23 23:42:10 --> CSRF token verified.
+INFO - 2026-09-23 23:42:10 --> CSRF token verified.
+INFO - 2026-09-23 23:42:10 --> CSRF token verified.
+INFO - 2026-09-23 23:42:11 --> CSRF token verified.
+INFO - 2026-09-23 23:42:11 --> CSRF token verified.

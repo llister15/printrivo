@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-family: Source SansSerif Pro, Arial, sans-serif;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2rem;
+                background-color: #fff;
+                color: #000;
+            }
+
+            body > ul > li {
+                font-size: larger;
+            }
+
+            h2 {
+                font-size: larger;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 2rem;
+                padding: 0 0 0 1rem;
+                text-indent: -1rem;
+            }
+
+            .success:before {
+                color: #4e9a06;
+                content: '✓';
+                padding-right: 0.5rem;
+            }
+
+            .defect {
+                color: #a40000;
+            }
+
+            .defect:before {
+                color: #a40000;
+                content: '✗';
+                padding-right: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Print Order</h2>
+        <ul>
+            <li class="success">Only admins can send and token is never in page</li>
+            <li class="success">Payload includes original artwork customer and dimensions</li>
+            <li class="success">Pricing and shipping are validated on server</li>
+            <li class="success">Success is cached and changed retry is rejected</li>
+            <li class="success">Uncertain failure retries identical payload</li>
+            <li class="success">Rate limit wait is persisted</li>
+            <li class="success">File payload uses digest and streams through client</li>
+            <li class="success">Rejects invalid artwork and unsupported dpi</li>
+        </ul>
+        <h2>Print Upload Authorization</h2>
+        <ul>
+            <li class="success">Subscriber cannot authorize print upload during admin testing</li>
+            <li class="success">Missing or failed captcha cannot issue authorization</li>
+            <li class="success">Fresh verification authorizes only one upload without second captcha check</li>
+            <li class="success">Ticket is bound to user request session and expiry</li>
+            <li class="success">Admin authorization finishes missing print storage before upload</li>
+            <li class="success">Subscription is still required to authorize</li>
+        </ul>
+    </body>
+</html>

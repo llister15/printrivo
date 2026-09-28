@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Applications/XAMPP/xamppfiles/htdocs/printrivo/phpunit.dist.xml" tests="14" assertions="77" errors="0" failures="0" skipped="0" time="7.008289">
+    <testsuite name="App" tests="14" assertions="77" errors="0" failures="0" skipped="0" time="7.008289">
+      <testsuite name="PrintOrderTest" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" tests="8" assertions="54" errors="0" failures="0" skipped="0" time="4.620817">
+        <testcase name="testOnlyAdminsCanSendAndTokenIsNeverInPage" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="28" class="PrintOrderTest" classname="PrintOrderTest" assertions="14" time="0.523849"/>
+        <testcase name="testPayloadIncludesOriginalArtworkCustomerAndDimensions" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="48" class="PrintOrderTest" classname="PrintOrderTest" assertions="12" time="0.466787"/>
+        <testcase name="testPricingAndShippingAreValidatedOnServer" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="61" class="PrintOrderTest" classname="PrintOrderTest" assertions="8" time="1.271992"/>
+        <testcase name="testSuccessIsCachedAndChangedRetryIsRejected" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="79" class="PrintOrderTest" classname="PrintOrderTest" assertions="4" time="0.471227"/>
+        <testcase name="testUncertainFailureRetriesIdenticalPayload" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="90" class="PrintOrderTest" classname="PrintOrderTest" assertions="5" time="0.466093"/>
+        <testcase name="testRateLimitWaitIsPersisted" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="103" class="PrintOrderTest" classname="PrintOrderTest" assertions="3" time="0.465731"/>
+        <testcase name="testFilePayloadUsesDigestAndStreamsThroughClient" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="113" class="PrintOrderTest" classname="PrintOrderTest" assertions="5" time="0.472696"/>
+        <testcase name="testRejectsInvalidArtworkAndUnsupportedDpi" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintOrderTest.php" line="130" class="PrintOrderTest" classname="PrintOrderTest" assertions="3" time="0.482442"/>
+      </testsuite>
+      <testsuite name="PrintUploadAuthorizationTest" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" tests="6" assertions="23" errors="0" failures="0" skipped="0" time="2.387473">
+        <testcase name="testSubscriberCannotAuthorizePrintUploadDuringAdminTesting" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="37" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="2" time="0.475294"/>
+        <testcase name="testMissingOrFailedCaptchaCannotIssueAuthorization" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="47" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="3" time="0.473034"/>
+        <testcase name="testFreshVerificationAuthorizesOnlyOneUploadWithoutSecondCaptchaCheck" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="56" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="5" time="0.475373"/>
+        <testcase name="testTicketIsBoundToUserRequestSessionAndExpiry" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="72" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="6" time="0.028382"/>
+        <testcase name="testAdminAuthorizationFinishesMissingPrintStorageBeforeUpload" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="86" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="5" time="0.468248"/>
+        <testcase name="testSubscriptionIsStillRequiredToAuthorize" file="/Applications/XAMPP/xamppfiles/htdocs/printrivo/tests/Feature/PrintUploadAuthorizationTest.php" line="97" class="PrintUploadAuthorizationTest" classname="PrintUploadAuthorizationTest" assertions="2" time="0.467141"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

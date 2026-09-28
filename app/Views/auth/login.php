@@ -1,0 +1,6 @@
+<?= $this->extend('marketing/layout') ?>
+<?= $this->section('title') ?>Member login<?= $this->endSection() ?>
+<?= $this->section('head') ?><meta name="robots" content="noindex, nofollow"><?= $this->endSection() ?>
+<?= $this->section('main') ?>
+<section class="container auth-section"><div class="auth-intro"><p class="eyebrow">YOUR WORKSPACE AWAITS</p><h1>Welcome back.<br>Let’s get to work.</h1><p>Log in to your Printrivo dashboard to see your tools and subscription status.</p><a class="text-link" href="<?= site_url('/') ?>">Explore Printrivo <span aria-hidden="true">↗</span></a></div><div class="auth-card"><h2>Log in</h2><p>New here? <a href="<?= site_url('register') ?>">Create an account</a></p><?= $this->include('auth/messages') ?><form method="post" action="<?= site_url('login') ?>"><?= csrf_field() ?><label for="email">Email address</label><input id="email" type="email" name="email" autocomplete="username" value="<?= old('email') ?>" required><label for="password">Password</label><input id="password" type="password" name="password" autocomplete="current-password" required><button class="button full" type="submit">Log in <span aria-hidden="true">→</span></button></form></div></section>
+<?= $this->endSection() ?>

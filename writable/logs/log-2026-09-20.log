@@ -1,0 +1,757 @@
+DEBUG - 2026-09-20 08:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:16:43 --> CSRF token verified.
+INFO - 2026-09-20 08:18:01 --> CSRF token verified.
+INFO - 2026-09-20 08:18:07 --> CSRF token verified.
+ERROR - 2026-09-20 08:19:01 --> Error connecting to the database: mysqli_sql_exception: Unknown error while connecting in /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'printrivo', 3306, '', 0)
+#1 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 /opt/lampp/htdocs/tools/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown error while connecting in /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 /opt/lampp/htdocs/tools/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 /opt/lampp/htdocs/tools/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+INFO - 2026-09-20 08:19:56 --> CSRF token verified.
+INFO - 2026-09-20 08:20:02 --> CSRF token verified.
+INFO - 2026-09-20 08:20:05 --> CSRF token verified.
+INFO - 2026-09-20 08:21:26 --> CSRF token verified.
+INFO - 2026-09-20 08:21:34 --> CSRF token verified.
+INFO - 2026-09-20 08:22:01 --> CSRF token verified.
+INFO - 2026-09-20 08:22:08 --> CSRF token verified.
+INFO - 2026-09-20 08:22:09 --> CSRF token verified.
+INFO - 2026-09-20 08:22:09 --> CSRF token verified.
+DEBUG - 2026-09-20 08:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:22:42 --> CSRF token verified.
+DEBUG - 2026-09-20 08:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:22:42 --> CSRF token verified.
+DEBUG - 2026-09-20 08:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:22:48 --> CSRF token verified.
+INFO - 2026-09-20 08:22:51 --> CSRF token verified.
+INFO - 2026-09-20 08:22:52 --> CSRF token verified.
+INFO - 2026-09-20 08:22:52 --> CSRF token verified.
+INFO - 2026-09-20 08:26:20 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:27 --> CSRF token verified.
+INFO - 2026-09-20 08:26:30 --> CSRF token verified.
+INFO - 2026-09-20 08:26:31 --> CSRF token verified.
+INFO - 2026-09-20 08:26:31 --> CSRF token verified.
+DEBUG - 2026-09-20 08:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:36:44 --> CSRF token verified.
+DEBUG - 2026-09-20 08:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:36:50 --> CSRF token verified.
+DEBUG - 2026-09-20 08:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:37:05 --> CSRF token verified.
+DEBUG - 2026-09-20 08:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:37:20 --> CSRF token verified.
+DEBUG - 2026-09-20 08:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:37:29 --> CSRF token verified.
+DEBUG - 2026-09-20 08:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:42:06 --> CSRF token verified.
+INFO - 2026-09-20 08:42:07 --> CSRF token verified.
+INFO - 2026-09-20 08:42:07 --> CSRF token verified.
+DEBUG - 2026-09-20 08:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:47:20 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:27 --> CSRF token verified.
+INFO - 2026-09-20 08:47:30 --> CSRF token verified.
+INFO - 2026-09-20 08:47:30 --> CSRF token verified.
+INFO - 2026-09-20 08:47:30 --> CSRF token verified.
+DEBUG - 2026-09-20 08:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 08:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:55:07 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:08 --> CSRF token verified.
+INFO - 2026-09-20 08:55:09 --> CSRF token verified.
+INFO - 2026-09-20 08:55:09 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:16 --> CSRF token verified.
+INFO - 2026-09-20 08:55:19 --> CSRF token verified.
+INFO - 2026-09-20 08:55:20 --> CSRF token verified.
+INFO - 2026-09-20 08:55:20 --> CSRF token verified.
+INFO - 2026-09-20 08:55:42 --> CSRF token verified.
+INFO - 2026-09-20 08:55:43 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+INFO - 2026-09-20 08:55:44 --> CSRF token verified.
+DEBUG - 2026-09-20 08:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 08:58:48 --> CSRF token verified.
+INFO - 2026-09-20 08:58:48 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:49 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+INFO - 2026-09-20 08:58:50 --> CSRF token verified.
+DEBUG - 2026-09-20 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:24:46 --> CSRF token verified.
+DEBUG - 2026-09-20 09:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:41:07 --> CSRF token verified.
+DEBUG - 2026-09-20 09:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:41:08 --> CSRF token verified.
+DEBUG - 2026-09-20 09:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:41:08 --> CSRF token verified.
+INFO - 2026-09-20 09:41:08 --> CSRF token verified.
+INFO - 2026-09-20 09:41:08 --> CSRF token verified.
+INFO - 2026-09-20 09:41:09 --> CSRF token verified.
+INFO - 2026-09-20 09:41:09 --> CSRF token verified.
+INFO - 2026-09-20 09:41:09 --> CSRF token verified.
+INFO - 2026-09-20 09:41:10 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+INFO - 2026-09-20 09:41:17 --> CSRF token verified.
+DEBUG - 2026-09-20 09:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:41:20 --> CSRF token verified.
+INFO - 2026-09-20 09:41:20 --> CSRF token verified.
+INFO - 2026-09-20 09:41:20 --> CSRF token verified.
+DEBUG - 2026-09-20 09:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 09:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:52:42 --> CSRF token verified.
+INFO - 2026-09-20 09:52:43 --> CSRF token verified.
+INFO - 2026-09-20 09:52:43 --> CSRF token verified.
+INFO - 2026-09-20 09:52:43 --> CSRF token verified.
+INFO - 2026-09-20 09:52:43 --> CSRF token verified.
+INFO - 2026-09-20 09:52:44 --> CSRF token verified.
+INFO - 2026-09-20 09:52:44 --> CSRF token verified.
+INFO - 2026-09-20 09:52:44 --> CSRF token verified.
+INFO - 2026-09-20 09:52:45 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:51 --> CSRF token verified.
+INFO - 2026-09-20 09:52:54 --> CSRF token verified.
+INFO - 2026-09-20 09:52:55 --> CSRF token verified.
+INFO - 2026-09-20 09:52:55 --> CSRF token verified.
+DEBUG - 2026-09-20 09:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 09:54:36 --> CSRF token verified.
+INFO - 2026-09-20 09:54:36 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:37 --> CSRF token verified.
+INFO - 2026-09-20 09:54:38 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:45 --> CSRF token verified.
+INFO - 2026-09-20 09:54:48 --> CSRF token verified.
+INFO - 2026-09-20 09:54:48 --> CSRF token verified.
+INFO - 2026-09-20 09:54:48 --> CSRF token verified.
+INFO - 2026-09-20 10:00:52 --> CSRF token verified.
+INFO - 2026-09-20 10:00:52 --> CSRF token verified.
+INFO - 2026-09-20 10:00:53 --> CSRF token verified.
+INFO - 2026-09-20 10:00:53 --> CSRF token verified.
+INFO - 2026-09-20 10:00:53 --> CSRF token verified.
+INFO - 2026-09-20 10:00:53 --> CSRF token verified.
+INFO - 2026-09-20 10:00:53 --> CSRF token verified.
+INFO - 2026-09-20 10:00:54 --> CSRF token verified.
+INFO - 2026-09-20 10:00:54 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:01 --> CSRF token verified.
+INFO - 2026-09-20 10:01:04 --> CSRF token verified.
+INFO - 2026-09-20 10:01:04 --> CSRF token verified.
+INFO - 2026-09-20 10:01:04 --> CSRF token verified.
+INFO - 2026-09-20 10:02:03 --> CSRF token verified.
+ERROR - 2026-09-20 10:02:04 --> Unable to prepare statement: 1, no such column: db_u.id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 164.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(164): SQLite3->query('SELECT `db_u`.`id`, `db_u`.`first_name`, `db_u`.`last_name`, `db_u`.`active`, `db_u`.`status`, `db_u`.`created_at`, `db_u`.`last_active`, `db_i`.`secret` AS `email`
+FROM `db_users` `u`
+LEFT JOIN `db_auth_identities` `i` ON `i`.`user_id`=`u`.`id` AND `i`.`type`=\'email_password\'
+WHERE `db_u`.`deleted_at` IS NULL
+ORDER BY `db_u`.`id` DESC
+ LIMIT 25')
+ 2 SYSTEMPATH/Database/BaseConnection.php(908): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `db_u`.`id`, `db_u`.`first_name`, `db_u`.`last_name`, `db_u`.`active`, `db_u`.`status`, `db_u`.`created_at`, `db_u`.`last_active`, `db_i`.`secret` AS `email`
+FROM `db_users` `u`
+LEFT JOIN `db_auth_identities` `i` ON `i`.`user_id`=`u`.`id` AND `i`.`type`=\'email_password\'
+WHERE `db_u`.`deleted_at` IS NULL
+ORDER BY `db_u`.`id` DESC
+ LIMIT 25')
+ 3 SYSTEMPATH/Database/BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `db_u`.`id`, `db_u`.`first_name`, `db_u`.`last_name`, `db_u`.`active`, `db_u`.`status`, `db_u`.`created_at`, `db_u`.`last_active`, `db_i`.`secret` AS `email`
+FROM `db_users` `u`
+LEFT JOIN `db_auth_identities` `i` ON `i`.`user_id`=`u`.`id` AND `i`.`type`=\'email_password\'
+WHERE `db_u`.`deleted_at` IS NULL
+ORDER BY `db_u`.`id` DESC
+ LIMIT 25')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT `db_u`.`id`, `db_u`.`first_name`, `db_u`.`last_name`, `db_u`.`active`, `db_u`.`status`, `db_u`.`created_at`, `db_u`.`last_active`, `db_i`.`secret` AS `email`
+FROM `db_users` `u`
+LEFT JOIN `db_auth_identities` `i` ON `i`.`user_id`=`u`.`id` AND `i`.`type`=\'email_password\'
+WHERE `db_u`.`deleted_at` IS NULL
+ORDER BY `db_u`.`id` DESC
+ LIMIT 25', [], false)
+ 5 APPPATH/Controllers/Admin.php(31): CodeIgniter\Database\BaseBuilder->get(25, 0)
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Admin->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(Object(CodeIgniter\Router\RouteCollection), Object(Config\Cache), true)
+ 9 SYSTEMPATH/Test/FeatureTestTrait.php(234): CodeIgniter\CodeIgniter->run(Object(CodeIgniter\Router\RouteCollection), true)
+10 SYSTEMPATH/Test/FeatureTestTrait.php(254): AdminTest->call('GET', '/admin', null)
+11 ROOTPATH/tests/Feature/AdminTest.php(37): AdminTest->get('/admin')
+12 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1548): AdminTest->testAdminCanSearchUsersAndCountUniqueEligibleAccounts()
+13 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(686): PHPUnit\Framework\TestCase->runTest()
+14 VENDORPATH/phpunit/phpunit/src/Framework/TestRunner.php(106): PHPUnit\Framework\TestCase->runBare()
+15 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(516): PHPUnit\Framework\TestRunner->run(Object(AdminTest))
+16 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestCase->run()
+17 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+18 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(374): PHPUnit\Framework\TestSuite->run()
+19 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit\Framework\TestSuite->run()
+20 VENDORPATH/phpunit/phpunit/src/TextUI/Application.php(204): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+21 VENDORPATH/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run([...])
+22 VENDORPATH/bin/phpunit(122): include('/opt/lampp/htdocs/tools/vendor/phpunit/phpunit/phpunit')
+INFO - 2026-09-20 10:02:05 --> CSRF token verified.
+INFO - 2026-09-20 10:02:05 --> CSRF token verified.
+INFO - 2026-09-20 10:02:05 --> CSRF token verified.
+INFO - 2026-09-20 10:02:06 --> CSRF token verified.
+INFO - 2026-09-20 10:02:19 --> CSRF token verified.
+INFO - 2026-09-20 10:02:21 --> CSRF token verified.
+INFO - 2026-09-20 10:02:21 --> CSRF token verified.
+INFO - 2026-09-20 10:02:22 --> CSRF token verified.
+INFO - 2026-09-20 10:02:22 --> CSRF token verified.
+INFO - 2026-09-20 10:02:35 --> CSRF token verified.
+INFO - 2026-09-20 10:02:37 --> CSRF token verified.
+INFO - 2026-09-20 10:02:37 --> CSRF token verified.
+INFO - 2026-09-20 10:02:38 --> CSRF token verified.
+INFO - 2026-09-20 10:02:38 --> CSRF token verified.
+INFO - 2026-09-20 10:02:41 --> CSRF token verified.
+INFO - 2026-09-20 10:02:42 --> CSRF token verified.
+INFO - 2026-09-20 10:02:42 --> CSRF token verified.
+INFO - 2026-09-20 10:02:42 --> CSRF token verified.
+INFO - 2026-09-20 10:02:42 --> CSRF token verified.
+INFO - 2026-09-20 10:02:43 --> CSRF token verified.
+INFO - 2026-09-20 10:02:43 --> CSRF token verified.
+INFO - 2026-09-20 10:02:43 --> CSRF token verified.
+INFO - 2026-09-20 10:02:44 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:50 --> CSRF token verified.
+INFO - 2026-09-20 10:02:53 --> CSRF token verified.
+INFO - 2026-09-20 10:02:54 --> CSRF token verified.
+INFO - 2026-09-20 10:02:54 --> CSRF token verified.
+DEBUG - 2026-09-20 10:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 10:05:07 --> CSRF token verified.
+INFO - 2026-09-20 10:05:08 --> CSRF token verified.
+INFO - 2026-09-20 10:05:08 --> CSRF token verified.
+INFO - 2026-09-20 10:05:09 --> CSRF token verified.
+INFO - 2026-09-20 10:05:10 --> CSRF token verified.
+INFO - 2026-09-20 10:05:13 --> CSRF token verified.
+INFO - 2026-09-20 10:05:13 --> CSRF token verified.
+INFO - 2026-09-20 10:05:14 --> CSRF token verified.
+INFO - 2026-09-20 10:05:14 --> CSRF token verified.
+INFO - 2026-09-20 10:05:14 --> CSRF token verified.
+INFO - 2026-09-20 10:05:14 --> CSRF token verified.
+INFO - 2026-09-20 10:05:14 --> CSRF token verified.
+INFO - 2026-09-20 10:05:15 --> CSRF token verified.
+INFO - 2026-09-20 10:05:15 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:22 --> CSRF token verified.
+INFO - 2026-09-20 10:05:23 --> CSRF token verified.
+INFO - 2026-09-20 10:05:23 --> CSRF token verified.
+ERROR - 2026-09-20 10:05:23 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-20 10:05:26 --> CSRF token verified.
+ERROR - 2026-09-20 10:05:26 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-20 10:05:26 --> CSRF token verified.
+INFO - 2026-09-20 10:05:26 --> CSRF token verified.
+DEBUG - 2026-09-20 10:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-20 10:09:05 --> CSRF token verified.
+INFO - 2026-09-20 10:09:07 --> CSRF token verified.
+INFO - 2026-09-20 10:09:07 --> CSRF token verified.
+INFO - 2026-09-20 10:09:08 --> CSRF token verified.
+INFO - 2026-09-20 10:09:08 --> CSRF token verified.
+INFO - 2026-09-20 10:09:11 --> CSRF token verified.
+INFO - 2026-09-20 10:09:12 --> CSRF token verified.
+INFO - 2026-09-20 10:09:12 --> CSRF token verified.
+INFO - 2026-09-20 10:09:12 --> CSRF token verified.
+INFO - 2026-09-20 10:09:12 --> CSRF token verified.
+INFO - 2026-09-20 10:09:13 --> CSRF token verified.
+INFO - 2026-09-20 10:09:13 --> CSRF token verified.
+INFO - 2026-09-20 10:09:13 --> CSRF token verified.
+INFO - 2026-09-20 10:09:14 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:20 --> CSRF token verified.
+INFO - 2026-09-20 10:09:21 --> CSRF token verified.
+INFO - 2026-09-20 10:09:21 --> CSRF token verified.
+ERROR - 2026-09-20 10:09:21 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-20 10:09:24 --> CSRF token verified.
+ERROR - 2026-09-20 10:09:25 --> Signup notification delivery failed for account ID 1. Check SMTP configuration.
+INFO - 2026-09-20 10:09:25 --> CSRF token verified.
+INFO - 2026-09-20 10:09:25 --> CSRF token verified.
+DEBUG - 2026-09-20 10:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-09-20 10:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-09-20 10:50:18 --> RuntimeException: Configure database.default.hostname in the project .env file.
+[Method: GET, Route: /]
+in APPPATH/Config/Database.php on line 213.
+ 1 SYSTEMPATH/Config/Factories.php(236): Config\Database->__construct()
+ 2 SYSTEMPATH/Config/Factories.php(170): CodeIgniter\Config\Factories::createInstance()
+ 3 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 4 SYSTEMPATH/Common.php(220): CodeIgniter\Config\Factories::get()
+ 5 SYSTEMPATH/Database/Config.php(61): config()
+ 6 SYSTEMPATH/Model.php(152): CodeIgniter\Database\Config::connect()
+ 7 VENDORPATH/codeigniter4/shield/src/Models/BaseModel.php(38): CodeIgniter\Model->__construct()
+ 8 VENDORPATH/codeigniter4/shield/src/Auth.php(180): CodeIgniter\Shield\Models\BaseModel->__construct()
+ 9 VENDORPATH/codeigniter4/shield/src/Auth.php(67): CodeIgniter\Shield\Auth->getProvider()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(197): CodeIgniter\Shield\Auth->ensureAuthentication()
+11 APPPATH/Views/marketing/layout.php(16): CodeIgniter\Shield\Auth->__call()
+12 SYSTEMPATH/View/View.php(240): include('/home/wonkasoft/public_html/app/Views/marketing/layout.php')
+13 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+14 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+15 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Marketing.php(5): view()
+17 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+18 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+20 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+22 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+23 ROOTPATH/index.php(4): require('/home/wonkasoft/public_html/public/index.php')
+CRITICAL - 2026-09-20 10:54:01 --> RuntimeException: Configure database.default.hostname in the project .env file.
+[Method: GET, Route: /]
+in APPPATH/Config/Database.php on line 213.
+ 1 SYSTEMPATH/Config/Factories.php(236): Config\Database->__construct()
+ 2 SYSTEMPATH/Config/Factories.php(170): CodeIgniter\Config\Factories::createInstance()
+ 3 SYSTEMPATH/Config/Factories.php(189): CodeIgniter\Config\Factories::__callStatic()
+ 4 SYSTEMPATH/Common.php(220): CodeIgniter\Config\Factories::get()
+ 5 SYSTEMPATH/Database/Config.php(61): config()
+ 6 SYSTEMPATH/Model.php(152): CodeIgniter\Database\Config::connect()
+ 7 VENDORPATH/codeigniter4/shield/src/Models/BaseModel.php(38): CodeIgniter\Model->__construct()
+ 8 VENDORPATH/codeigniter4/shield/src/Auth.php(180): CodeIgniter\Shield\Models\BaseModel->__construct()
+ 9 VENDORPATH/codeigniter4/shield/src/Auth.php(67): CodeIgniter\Shield\Auth->getProvider()
+10 VENDORPATH/codeigniter4/shield/src/Auth.php(197): CodeIgniter\Shield\Auth->ensureAuthentication()
+11 APPPATH/Views/marketing/layout.php(16): CodeIgniter\Shield\Auth->__call()
+12 SYSTEMPATH/View/View.php(240): include('/home/wonkasoft/public_html/app/Views/marketing/layout.php')
+13 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+14 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+15 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+16 APPPATH/Controllers/Marketing.php(5): view()
+17 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+18 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+19 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+20 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+21 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+22 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+23 ROOTPATH/index.php(4): require('/home/wonkasoft/public_html/public/index.php')
+ERROR - 2026-09-20 10:54:31 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate()
+#6 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has()
+#7 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get()
+#8 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting()
+#9 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#10 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey()
+#11 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#12 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#13 /home/wonkasoft/public_html/app/Views/marketing/layout.php(16): CodeIgniter\Shield\Auth->__call()
+#14 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(240): include('/home/wonkasoft...')
+#15 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+#16 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(256): CodeIgniter\View\View->render()
+#17 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Common.php(1268): CodeIgniter\View\View->render()
+#18 /home/wonkasoft/public_html/app/Controllers/Marketing.php(5): view()
+#19 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(974): App\Controllers\Marketing->index()
+#20 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#21 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#22 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#23 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#24 /home/wonkasoft/public_html/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#25 /home/wonkasoft/public_html/index.php(4): require('/home/wonkasoft...')
+#26 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+#3 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate()
+#5 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has()
+#6 /home/wonkasoft/public_html/vendor/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get()
+#7 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting()
+#8 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+#9 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey()
+#10 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+#11 /home/wonkasoft/public_html/vendor/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+#12 /home/wonkasoft/public_html/app/Views/marketing/layout.php(16): CodeIgniter\Shield\Auth->__call()
+#13 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(240): include('/home/wonkasoft...')
+#14 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+#15 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/View/View.php(256): CodeIgniter\View\View->render()
+#16 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Common.php(1268): CodeIgniter\View\View->render()
+#17 /home/wonkasoft/public_html/app/Controllers/Marketing.php(5): view()
+#18 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(974): App\Controllers\Marketing->index()
+#19 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+#20 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+#21 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#22 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#23 /home/wonkasoft/public_html/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#24 /home/wonkasoft/public_html/index.php(4): require('/home/wonkasoft...')
+#25 {main}
+CRITICAL - 2026-09-20 10:54:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query()
+ 3 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(276): CodeIgniter\Database\BaseBuilder->get()
+ 4 VENDORPATH/codeigniter4/settings/src/Handlers/DatabaseHandler.php(56): CodeIgniter\Settings\Handlers\DatabaseHandler->hydrate()
+ 5 VENDORPATH/codeigniter4/settings/src/Settings.php(62): CodeIgniter\Settings\Handlers\DatabaseHandler->has()
+ 6 VENDORPATH/codeigniter4/settings/src/Helpers/setting_helper.php(27): CodeIgniter\Settings\Settings->get()
+ 7 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(742): setting()
+ 8 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(760): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserInfo()
+ 9 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(422): CodeIgniter\Shield\Authentication\Authenticators\Session->getSessionUserKey()
+10 VENDORPATH/codeigniter4/shield/src/Authentication/Authenticators/Session.php(406): CodeIgniter\Shield\Authentication\Authenticators\Session->checkUserState()
+11 VENDORPATH/codeigniter4/shield/src/Auth.php(202): CodeIgniter\Shield\Authentication\Authenticators\Session->loggedIn()
+12 APPPATH/Views/marketing/layout.php(16): CodeIgniter\Shield\Auth->__call()
+13 SYSTEMPATH/View/View.php(240): include('/home/wonkasoft/public_html/app/Views/marketing/layout.php')
+14 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+15 SYSTEMPATH/View/View.php(256): CodeIgniter\View\View->render()
+16 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+17 APPPATH/Controllers/Marketing.php(5): view()
+18 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Marketing->index()
+19 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+20 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+21 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+23 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+24 ROOTPATH/index.php(4): require('/home/wonkasoft/public_html/public/index.php')
+ERROR - 2026-09-20 10:54:40 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query()
+#4 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists()
+#6 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest()
+#8 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::{closure:CodeIgniter\Commands\Database\Migrate::run():88}()
+#9 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked()
+#10 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run()
+#11 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run()
+#12 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand()
+#14 /home/wonkasoft/public_html/spark(87): CodeIgniter\Boot::bootSpark()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query()
+#3 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists()
+#5 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest()
+#7 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::{closure:CodeIgniter\Commands\Database\Migrate::run():88}()
+#8 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked()
+#9 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/Commands.php(72): CodeIgniter\Commands\Database\Migrate->run()
+#10 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run()
+#11 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 /home/wonkasoft/public_html/vendor/codeigniter4/framework/system/Boot.php(166): CodeIgniter\Boot::runCommand()
+#13 /home/wonkasoft/public_html/spark(87): CodeIgniter\Boot::bootSpark()
+#14 {main}
+CRITICAL - 2026-09-20 23:08:43 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "&4&4&4"
+[Method: GET, Route: &4&4&4]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(852): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,6 @@
+.back-to-top{position:fixed;right:24px;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:60;display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid #78deef;border-radius:50%;background:#263d55;color:#a3efff;box-shadow:0 6px 22px #09122155;cursor:pointer}
+.back-to-top[hidden]{display:none}
+.back-to-top:hover{background:#35516c;color:#fff}
+.back-to-top:focus-visible{outline:3px solid #8ae7f5;outline-offset:4px}
+.back-to-top--captcha{bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+@media(max-width:560px){.back-to-top{right:16px}}

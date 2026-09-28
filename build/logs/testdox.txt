@@ -1,0 +1,18 @@
+Print Order
+ [x] Only admins can send and token is never in page
+ [x] Payload includes original artwork customer and dimensions
+ [x] Pricing and shipping are validated on server
+ [x] Success is cached and changed retry is rejected
+ [x] Uncertain failure retries identical payload
+ [x] Rate limit wait is persisted
+ [x] File payload uses digest and streams through client
+ [x] Rejects invalid artwork and unsupported dpi
+
+Print Upload Authorization
+ [x] Subscriber cannot authorize print upload during admin testing
+ [x] Missing or failed captcha cannot issue authorization
+ [x] Fresh verification authorizes only one upload without second captcha check
+ [x] Ticket is bound to user request session and expiry
+ [x] Admin authorization finishes missing print storage before upload
+ [x] Subscription is still required to authorize
+

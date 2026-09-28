@@ -1,0 +1,10 @@
+{
+  "ESRGAN-Slim-LICENSE": "cea5198cf6e5c9deabd816d665d9d952ab8e367e6c04daead05c102bdb6feee4",
+  "README.txt": "f659413b60e91beb6453772fa31a7cbb10f1f78844eebd3c0cbe8b0ff8ed0353",
+  "TensorFlow-LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "models/x2/group1-shard1of1.bin": "5cb464ae4d390ce0a771afd5feaf60fbfcdb18ab48a56db98cdf6b88202369de",
+  "models/x2/model.json": "8efb488c2caed0196a6163e3f06798f9245e92623ffd50654a26c372e09150ea",
+  "models/x4/group1-shard1of1.bin": "82637daaf3ba024df5e9da2389e8992e7a6e8a992ba6268ce6bc490c92e9516e",
+  "models/x4/model.json": "3a2eaa642232567e7d2a2e7638c9704f42f63f355fc656c18aa78bf2da1d903d",
+  "tf-4.11.0.min.js": "10473436a3c630d59d02444e7d65ff8a03e0821a3372c7a5ccbc491f61e3a77d"
+}

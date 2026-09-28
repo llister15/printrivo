@@ -1,0 +1,46 @@
+const puppeteer=require('puppeteer');
+const fs=require('fs');const assert=require('assert/strict');const path=require('path');const root=path.resolve(__dirname,'../..');
+(async()=>{const browser=await puppeteer.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});try{const page=await browser.newPage();await page.setViewport({width:1440,height:1000});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+let html=fs.readFileSync(root+'/app/Views/tools/image_studio.php','utf8').replace(/<\?=[\s\S]*?\?>/g,'').replace(/<script[^>]*><\/script>/g,'').replace(/<link[^>]*>/g,'');await page.setContent(html);await page.addStyleTag({path:root+'/public/assets/css/image-studio.css'});await page.addScriptTag({path:root+'/public/assets/js/studio-image.js'});await page.addScriptTag({path:root+'/public/assets/js/image-studio.js'});
+await page.evaluate(()=>{const c=document.createElement('canvas');c.width=120;c.height=90;let x=c.getContext('2d');x.fillStyle='white';x.fillRect(0,0,120,90);x.fillStyle='red';x.fillRect(30,25,60,40);return new Promise(r=>c.toBlob(async b=>{const f=new File([b],'art.png',{type:'image/png'}),d=new DataTransfer();d.items.add(f);document.getElementById('file').files=d.files;document.getElementById('file').dispatchEvent(new Event('change'));r();}));});
+const wait=()=>page.waitForFunction(()=>!document.getElementById('export').disabled);await wait();
+assert.equal(await page.$eval('#canvas',c=>c.getContext('2d').getImageData(0,0,1,1).data[3]),255);
+await page.click('#remove-bg');await wait();assert.equal(await page.$eval('#canvas',c=>c.width),120);assert.equal(await page.$eval('#canvas',c=>c.getContext('2d').getImageData(0,0,1,1).data[3]),0);
+await page.click('#trim');await wait();assert.equal(await page.$eval('#canvas',c=>c.width),64);
+await page.click('#undo');assert.equal(await page.$eval('#canvas',c=>c.width),120);await page.click('#redo');assert.equal(await page.$eval('#canvas',c=>c.width),64);
+await page.click('#upscale2');await wait();assert.equal(await page.$eval('#canvas',c=>c.width),128);
+await page.click('#add-text');await wait();await page.$eval('#text',e=>{e.value='PRINT READY';e.dispatchEvent(new Event('change'));});assert.equal(await page.$eval('#layers',e=>e.options.length),2);
+await page.click('#undo');assert.equal(await page.$eval('#text',e=>e.value),'Your text');await page.click('#redo');assert.equal(await page.$eval('#text',e=>e.value),'PRINT READY');
+await page.evaluate(()=>{window.exportResult=null;window.downloadBlob=async(blob,name)=>{const bytes=await blob.arrayBuffer();window.exportResult={name,dpi:readDpi(bytes,'image/png'),size:blob.size};};});await page.click('#export');await wait();await page.waitForFunction(()=>window.exportResult);const exported=await page.evaluate(()=>window.exportResult);assert.ok(Math.abs(exported.dpi-300)<1);assert.ok(exported.size>100);assert.match(exported.name,/studio-300dpi.png$/);
+// Color replacement and adjustments preserve transparency and can be undone.
+await page.evaluate(()=>{document.getElementById('from-color').value='#ff0000';document.getElementById('to-color').value='#00ff00';document.getElementById('replace-color').click();});await wait();
+assert.equal(await page.$eval('#canvas',c=>c.getContext('2d').getImageData(70,60,1,1).data[1]),255);
+await page.evaluate(()=>{document.getElementById('saturation').value=0;document.getElementById('colors').click();});await wait();
+const gray=await page.$eval('#canvas',c=>Array.from(c.getContext('2d').getImageData(70,60,1,1).data));assert.equal(gray[0],gray[1]);assert.equal(gray[1],gray[2]);
+await page.click('#undo');await page.click('#undo');
+await page.evaluate(()=>{document.getElementById('print-width').value=2;document.getElementById('resize').click();});await wait();assert.equal(await page.$eval('#canvas',c=>c.width),600);await page.click('#undo');
+await page.evaluate(()=>{document.getElementById('crop-x').value=10;document.getElementById('crop-y').value=10;document.getElementById('crop-w').value=80;document.getElementById('crop-h').value=50;document.getElementById('crop').click();});await wait();assert.equal(await page.$eval('#canvas',c=>c.width),80);await page.click('#undo');
+await page.evaluate(()=>{document.getElementById('rotate').click();});await wait();assert.equal(await page.$eval('#canvas',c=>c.width),88);assert.equal(await page.$eval('#layers',e=>e.options.length),1);await page.click('#undo');assert.equal(await page.$eval('#layers',e=>e.options.length),2);
+// Reject multi-file drops without replacing the current document.
+await page.evaluate(()=>{const d=new DataTransfer();d.items.add(new File(['x'],'one.png',{type:'image/png'}));d.items.add(new File(['x'],'two.png',{type:'image/png'}));document.getElementById('stage').dispatchEvent(new DragEvent('drop',{dataTransfer:d,bubbles:true,cancelable:true}));});assert.match(await page.$eval('#status',e=>e.textContent),/one image at a time/);assert.equal(await page.$eval('#canvas',c=>c.width),128);
+await page.screenshot({path:'/tmp/printrivo-studio-desktop.png',fullPage:true});await page.setViewport({width:390,height:844});await page.screenshot({path:'/tmp/printrivo-studio-mobile.png',fullPage:true});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);assert.deepEqual(errors,[]);
+// Clearing protects unexported work, clears document state, and permits a fresh import.
+assert.deepEqual(await page.$$eval('.document-bar button',buttons=>buttons.map(button=>button.textContent)),['Undo','Redo','Reset image','Clear image']);
+page.once('dialog',dialog=>dialog.dismiss());await page.click('#clear-image');
+assert.equal(await page.$eval('#canvas',canvas=>canvas.hidden),false);
+page.once('dialog',dialog=>dialog.accept());await page.click('#clear-image');
+assert.equal(await page.$eval('#canvas',canvas=>canvas.hidden),true);
+assert.equal(await page.$eval('#empty',element=>element.hidden),false);
+for(const id of ['undo','redo','reset','clear-image','export','image-tools','text-tools'])assert.equal(await page.$eval('#'+id,element=>element.disabled),true,id);
+assert.equal(await page.$eval('#filename',element=>element.textContent),'Untitled artwork');
+assert.equal(await page.$eval('#dimensions',element=>element.textContent),'Open an image to begin');
+assert.equal(await page.$eval('#layers',element=>element.options.length),1);
+assert.equal(await page.$eval('#text-properties',element=>element.hidden),true);
+assert.equal(await page.$eval('#print-info',element=>element.textContent),'Image dimensions, transparency, and output size appear here.');
+await page.evaluate(async()=>{const canvas=document.createElement('canvas');canvas.width=80;canvas.height=60;canvas.getContext('2d').fillRect(0,0,80,60);const blob=await new Promise(resolve=>canvas.toBlob(resolve));const files=new DataTransfer();files.items.add(new File([blob],'new-art.png',{type:'image/png'}));document.getElementById('file').files=files.files;document.getElementById('file').dispatchEvent(new Event('change'));});await wait();
+assert.equal(await page.$eval('#canvas',canvas=>canvas.width),80);
+assert.equal(await page.$eval('#filename',element=>element.textContent),'new-art.png');
+assert.equal(await page.$eval('#undo',element=>element.disabled),true);
+await page.click('#clear-image');assert.equal(await page.$eval('#empty',element=>element.hidden),false);
+assert.deepEqual(errors,[]);console.log('PASS: original preserved, removal, trim, upscale, undo/redo, text editing, PNG DPI export, responsive layout, clear-image confirmation, empty-state reset and fresh import; no browser errors.');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});
